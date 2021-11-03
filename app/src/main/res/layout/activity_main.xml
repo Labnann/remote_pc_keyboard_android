@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/setIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="SetIp" />
+
+
+    <EditText
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_below="@+id/setIp"
+        android:layout_alignStart="@+id/ip"
+        android:layout_alignEnd="@+id/ip"
+        android:layout_alignBottom="@+id/ip"
+        android:layout_marginStart="-79dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="-72dp"
+        android:layout_marginBottom="-111dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setIp"
+        android:layout_alignTop="@+id/setIp"
+        android:layout_alignEnd="@+id/setIp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="-30dp"
+        android:text="Send"
+        android:layout_marginBottom="-191dp" />
+</RelativeLayout>
